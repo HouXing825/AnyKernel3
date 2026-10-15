@@ -18,7 +18,11 @@ jobs:
       os_patch_level: "2025-06"
       ksu_variant: "SukiSU"
       ksu_commit: "dfae923781350cb5113e0763a17e90cc4edd59b4"
+      use_kpm: "disabled (关闭)"
+      enable_susfs: true
       use_zram: true
       use_bbg: true
       use_net_enhance: true
       use_rekernel: true
+      artifact_upload_mode: "仅上传 AnyKernel3.zip"
+      skip_incompatible: true
